@@ -1,5 +1,7 @@
 triks
 =====
+## System Management
+[dotfiles](http://dotfiles.github.com/)
 ## zsh
 ## New System Setup
 ### Case-Insensitive Tabbing in Ubuntu Terminal(Bash)
