@@ -3,6 +3,11 @@ triks
 ## System Management
 [dotfiles](http://dotfiles.github.com/)
 ## zsh
+### tips, tricks and examples for the zsh
+    aptitude search zsh
+    sudo aptitude install zsh-lovers
+    man zsh-lovers
+    
 ## New System Setup
 ### Case-Insensitive Tabbing in Ubuntu Terminal(Bash)
     sudo cp -p /etc/inputrc /etc/inputrc.bak
