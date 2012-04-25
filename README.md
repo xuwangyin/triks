@@ -32,3 +32,8 @@ triks
     deb-src ftp://ftp.ustb.edu.cn/pub/ubuntu/ natty-proposed main multiverse restricted universe
     deb-src ftp://ftp.ustb.edu.cn/pub/ubuntu/ natty-security main multiverse restricted universe
     deb-src ftp://ftp.ustb.edu.cn/pub/ubuntu/ natty-updates main multiverse restricted universe
+
+## Linux Tricks
+### Copy To Clipboard
+    $ sudo apt-get install xclip
+    $ xclip -sel clip < ~/.ssh/id_rsa.pub
