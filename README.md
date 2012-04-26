@@ -37,3 +37,5 @@ triks
 ### Copy To Clipboard
     $ sudo apt-get install xclip
     $ xclip -sel clip < ~/.ssh/id_rsa.pub
+### print the strings of printable characters in files(i.e. MS Word)
+    strings /usr/lib/libstdc++.so.6 | grep GLIBC
