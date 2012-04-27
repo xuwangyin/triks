@@ -58,7 +58,7 @@ triks
         
       mexPrintf("Hello, world!\n");
     
-      Mat origin = imread("mserdemo.jpg");
+      Mat origin = imread("demo.jpg");
       imshow("origin", origin);
       waitKey(
     } 
@@ -92,7 +92,7 @@ yields
        /usr/local/matlabR2010a/sys/os/glnx86/README.libstdc++
        /usr/local/matlabR2010a/sys/os/glnx86/libstdc++.so.6
        /usr/local/matlabR2010a/sys/os/glnx86/libstdc++.so.6.0.9
-       etc.
+       ...
        
 if you can't find it, you can just copy one from other machines.  
 
