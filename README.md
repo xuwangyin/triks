@@ -3,6 +3,8 @@ triks
 ## System Management
 [dotfiles](http://dotfiles.github.com/)
 ## zsh
+### resources
+[holman's zsh](https://github.com/holman/dotfiles)
 ### tips, tricks and examples for the zsh
     aptitude search zsh
     sudo aptitude install zsh-lovers
