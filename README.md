@@ -69,9 +69,11 @@ triks
     make
 ### problem
 in the matlab command window (path of testcv should be in the matlab's search path):
-    ```>> testcv```
 
-yields:   
+    >> testcv
+
+yields: 
+
     ??? Invalid MEX-file '/home/xuwangyin/matlab/testcv.mexglx': /usr/local/matlabR2010a/bin/glnx86/../../sys/os/glnx86/libstdc++.so.6: version
     `GLIBCXX_3.4.11' not found (required by /usr/local/lib/libopencv_core.so.2.3).
 
@@ -79,6 +81,7 @@ yields:
     $ locate libstdc++
     
 yields
+
        /usr/lib/gcc/i486-linux-gnu/4.2/libstdc++.a
        /usr/lib/gcc/i486-linux-gnu/4.2/libstdc++.so
        /usr/lib/gcc/i686-linux-gnu/4.6/libstdc++.a
@@ -94,13 +97,17 @@ yields
 if you can't find it, you can just copy one from other machines.  
 
 make sure the new target contains GLIBCXX_3.4.11
+
     strings /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16| grep GLIBCXX
     
 go to the directory contains libstdc++.so.6
+
     cd $MATLAB/ys/os/glnx86
     
 backup the old link
+
     sudo cp libstdc++.so.6 libstdc++.so.6.disabled
     
 make the new link
+
     sudo ln -sf /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16 libstdc++.so.6
