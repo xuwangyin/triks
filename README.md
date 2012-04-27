@@ -69,7 +69,7 @@ triks
     make
 ### problem
 in the matlab command window (path of testcv should be in the matlab's search path):
-    >> testcv
+    ```>> testcv```
 
 yields:   
     ??? Invalid MEX-file '/home/xuwangyin/matlab/testcv.mexglx': /usr/local/matlabR2010a/bin/glnx86/../../sys/os/glnx86/libstdc++.so.6: version
