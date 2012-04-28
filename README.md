@@ -9,7 +9,16 @@ triks
     aptitude search zsh
     sudo aptitude install zsh-lovers
     man zsh-lovers
+## emacs
+mark files:
     
+    dired-mark-files-regexp(%m)
+query replace:
+
+    dired-do-query-replace-regexp(Q)
+search:
+
+    dired-do-search
 ## New System Setup
 ### Case-Insensitive Tabbing in Ubuntu Terminal(Bash)
     sudo cp -p /etc/inputrc /etc/inputrc.bak
