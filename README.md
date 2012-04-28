@@ -10,6 +10,7 @@ triks
     sudo aptitude install zsh-lovers
     man zsh-lovers
 ## emacs
+### dired search and replace
 mark files:
     
     dired-mark-files-regexp(%m)
