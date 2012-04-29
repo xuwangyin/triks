@@ -22,7 +22,7 @@ search:
     dired-do-search
 ## Ubuntu Server
 ### ftp server
-[ftp server setup guide)[https://help.ubuntu.com/10.04/serverguide/ftp-server.html], note the default ftp directory is /srv/ftp.
+[ftp server setup guide](https://help.ubuntu.com/10.04/serverguide/ftp-server.html), note the default ftp directory is /srv/ftp.
 ## New System Setup
 ### Case-Insensitive Tabbing in Ubuntu Terminal(Bash)
     sudo cp -p /etc/inputrc /etc/inputrc.bak
