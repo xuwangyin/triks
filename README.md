@@ -53,6 +53,7 @@ search:
     strings /usr/lib/libstdc++.so.6 | grep GLIBC
 
 ## writing matlab interface for c/c++ programs
+[MEX-files Guide](http://www.mathworks.cn/support/tech-notes/1600/1605.html#example1)
 ### program
     #include <vector>
     #include <stack>
