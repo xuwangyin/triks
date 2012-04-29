@@ -54,6 +54,10 @@ search:
 
 ## writing matlab interface for c/c++ programs
 [MEX-files Guide](http://www.mathworks.cn/support/tech-notes/1600/1605.html#example1)
+### Windows
+#### compile and install opencv from source if you have made change to the source, otherwise just install opencv binaries.
+[OpenCV Installation Guide](http://opencv.willowgarage.com/wiki/InstallGuide)
+#### build our project into a shared library
 ### program
     #include <vector>
     #include <stack>
