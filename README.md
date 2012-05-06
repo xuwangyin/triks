@@ -2,6 +2,11 @@ triks
 =====
 ## System Management
 [dotfiles](http://dotfiles.github.com/)
+### multiple pythons
+choose the Enthought Python Distribution for `sudo python setup.py install` and `sudo python`:
+
+    sudo ln -sf /usr/local/epd_free/bin/python /usr/bin/python
+    
 ## zsh
 ### resources
 [holman's zsh](https://github.com/holman/dotfiles)
