@@ -15,6 +15,7 @@ choose the Enthought Python Distribution for `sudo python setup.py install` and 
     sudo aptitude install zsh-lovers
     man zsh-lovers
 ## emacs
+[Install Emacs24 Snapshot on Debian, Ubuntu and Windows 7](http://sinewalker.wordpress.com/2012/02/13/install-emacs24-snapshot-on-debian-ubuntu-and-windows-7/)
 ### dired search and replace
 mark files:
     
